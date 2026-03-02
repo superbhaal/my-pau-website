@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PAU - Personal Assistant for yoU</title>
+  <meta name="description" content="PAU est votre assistant personnel intelligent, disponible sur WhatsApp, Instagram et par email." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/logo.png" type="image/png" />
+</head>
+<body>
+
+  <!-- Nav -->
+  <nav class="navbar">
+    <div class="navbar-inner">
+      <a href="index.html" class="navbar-brand">
+        <img src="images/logo.png" alt="PAU logo" />
+        PAU
+      </a>
+      <button class="menu-toggle" aria-label="Menu" onclick="document.querySelector('.navbar-links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="navbar-links">
+        <li><a href="index.html" class="active">Accueil</a></li>
+        <li><a href="privacy.html">Confidentialit&eacute;</a></li>
+        <li><a href="terms.html">Conditions</a></li>
+        <li><a href="data-deletion.html">Suppression</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <img src="images/logo.png" alt="PAU" class="hero-logo" />
+    <h1>Rencontrez <span>PAU</span></h1>
+    <p>Votre assistant personnel intelligent. PAU vous accompagne au quotidien via vos canaux de messagerie pr&eacute;f&eacute;r&eacute;s : WhatsApp, Instagram et email.</p>
+    <a href="#features" class="hero-cta">D&eacute;couvrir PAU &darr;</a>
+  </section>
+
+  <!-- Features -->
+  <section class="features" id="features">
+    <div class="features-heading">
+      <h2>Que fait PAU ?</h2>
+      <p>Un assistant qui vous conna&icirc;t et s'adapte &agrave; vos besoins.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">&#x1f9e0;</div>
+        <h3>M&eacute;moire contextuelle</h3>
+        <p>PAU se souvient de vos pr&eacute;f&eacute;rences et de vos conversations pass&eacute;es pour vous offrir des r&eacute;ponses toujours plus pertinentes.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">&#x1f4ac;</div>
+        <h3>Multi-canal</h3>
+        <p>Communiquez avec PAU l&agrave; o&ugrave; vous &ecirc;tes d&eacute;j&agrave; : WhatsApp, Instagram DM ou par email. Aucune nouvelle app &agrave; installer.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">&#x1f512;</div>
+        <h3>Respect de la vie priv&eacute;e</h3>
+        <p>Vos donn&eacute;es vous appartiennent. Vous pouvez les consulter, les exporter ou les supprimer &agrave; tout moment.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">&#x26a1;</div>
+        <h3>Disponible 24/7</h3>
+        <p>PAU est toujours l&agrave; pour vous aider, que ce soit pour organiser votre journ&eacute;e, r&eacute;pondre &agrave; une question ou simplement discuter.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">&#x1f310;</div>
+        <h3>Intelligence avanc&eacute;e</h3>
+        <p>Propuls&eacute; par les derniers mod&egrave;les d'IA, PAU comprend le contexte, les nuances et r&eacute;pond de mani&egrave;re naturelle.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">&#x1f91d;</div>
+        <h3>Personnel et unique</h3>
+        <p>Chaque PAU est unique &agrave; son utilisateur. Plus vous &eacute;changez, plus il vous comprend et anticipe vos besoins.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Channels -->
+  <section class="channels" id="channels">
+    <div class="channels-inner">
+      <h2>O&ugrave; trouver PAU ?</h2>
+      <p>Retrouvez votre assistant sur vos plateformes pr&eacute;f&eacute;r&eacute;es.</p>
+      <div class="channels-grid">
+        <div class="channel">
+          <div class="channel-icon">&#x1f4f1;</div>
+          <span>WhatsApp</span>
+        </div>
+        <div class="channel">
+          <div class="channel-icon">&#x1f4f7;</div>
+          <span>Instagram</span>
+        </div>
+        <div class="channel">
+          <div class="channel-icon">&#x2709;&#xfe0f;</div>
+          <span>Email</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">
+          <img src="images/logo.png" alt="PAU" />
+          PAU
+        </div>
+        <p class="footer-tagline">Personal Assistant for yoU</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>L&eacute;gal</h4>
+          <ul>
+            <li><a href="privacy.html">Politique de confidentialit&eacute;</a></li>
+            <li><a href="terms.html">Conditions de service</a></li>
+            <li><a href="data-deletion.html">Suppression des donn&eacute;es</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 PAU. Tous droits r&eacute;serv&eacute;s.
+    </div>
+  </footer>
+
+</body>
+</html>
